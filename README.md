@@ -413,3 +413,5 @@ Serves compressed static files directly from Gunicorn without needing a separate
 
 **Why Post/Redirect/Get pattern?**  
 After every successful POST (create/update/delete), the app redirects to a GET request. This prevents duplicate form submissions if the user refreshes the browser.
+
+## Staging Environment
